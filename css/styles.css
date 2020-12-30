@@ -106,23 +106,37 @@ hr {
   margin: auto;
 }
 
-.skill-row {
+.skills {
   width: 50%;
-  margin: 100px auto;
+  margin: 10% auto;
+}
+
+.my-skills {
+  margin: 0 auto;
+}
+
+.skill-row-1 {
   text-align: left;
   line-height: 2;
+  margin: 20% auto 30%;
 }
 
 .first-skill-img {
   width: 25%;
   float: left;
-  margin-right: 30px;
+  margin-right: 5%;
+}
+
+.skill-row-2 {
+  text-align: left;
+  line-height: 2;
+  margin: 30% auto;
 }
 
 .second-skill-img {
   width: 25%;
   float: right;
-  margin-left: 30px;
+  margin-left: 5%;
 }
 
 .contact-me {
