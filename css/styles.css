@@ -1,0 +1,180 @@
+body {
+  margin: 0;
+  text-align: center;
+  position: relative;
+  color: #40514E;
+}
+
+.top-container {
+  background-color: #ffefa0;
+  padding-top: 70px;
+  position: relative;
+  /* it is relative to the body which is centered.
+  If it was absolute, then it would have been in relation to the
+  screen which is not centered.
+  Every positioning from here on will be in relation to its
+  currnet position at the center, and not in relation to the screen*/
+}
+
+h1 {
+  margin: 20px auto 0 auto;
+  line-height: 1;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  /* 100% = 16px and we want 90px
+      Also: 1em = 100% = 16px
+      rem = like em but it will not be affected
+      by the parent's size configuration*/
+  color: #fd9330;
+}
+
+h2 {
+  margin-top: 0;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2rem;
+  color: #fd9330;
+  font-weight: normal
+}
+
+h3 {
+  font-family: 'Inconsolata', monospace;
+  color: #ac4b1c;
+}
+
+a {
+  color: #ac4b1c;
+  font-family: 'Quicksand', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.top-cloud {
+  position: absolute;
+  /* it is absolute, but relative to its containing element
+  which is the top-container.
+  If the containing elemnet was not Relative, then this too was
+  positioned according to the screen, instead of the position
+  of the containing element (the top-container)*/
+  right: 280px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 240px;
+  bottom: 300px;
+}
+
+.mountain {
+  position: relative;
+  bottom: 10px;
+}
+
+.middle-container {
+  background-color: #ffd57e;
+  padding: 100px 0 50px;
+}
+
+.bottom-container {
+  background-color: #ac4b1c;
+  color: #EAF6F6;
+  padding: 50px 0 20px;
+}
+
+.my-pic {
+  width: 15%;
+  /*it's enough to set the width since
+    it scales the height accordingly*/
+  margin: 50px auto 25px;
+}
+
+.bio-p {
+  width: 30%;
+  line-height: 2;
+  text-align: center;
+  margin: auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.first-skill-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.second-skill-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me {
+  width: 30%;
+  line-height: 2;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 40px;
+}
+
+.btn {
+  margin-top: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 10px;
+  line-height: 2;
+  color: #FFFFFF;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0 20px 0;
+  background-color: #ac4b1c;
+  background: #AC4B1C;
+  background-image: -webkit-linear-gradient(top, #AC4B1C, #993A0D);
+  background-image: -moz-linear-gradient(top, #AC4B1C, #993A0D);
+  background-image: -ms-linear-gradient(top, #AC4B1C, #993A0D);
+  background-image: -o-linear-gradient(top, #AC4B1C, #993A0D);
+  background-image: -webkit-gradient(to bottom, #AC4B1C, #993A0D);
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #FCA652;
+  background-image: -webkit-linear-gradient(top, #FCA652, #E57D17);
+  background-image: -moz-linear-gradient(top, #FCA652, #E57D17);
+  background-image: -ms-linear-gradient(top, #FCA652, #E57D17);
+  background-image: -o-linear-gradient(top, #FCA652, #E57D17);
+  background-image: -webkit-gradient(to bottom, #FCA652, #E57D17);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.footer-link {
+  color: #fca652;
+}
+
+.copyright {
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
