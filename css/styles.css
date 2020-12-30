@@ -7,7 +7,7 @@ body {
 
 .top-container {
   background-color: #ffefa0;
-  padding-top: 70px;
+  padding-top: 5%;
   position: relative;
   /* it is relative to the body which is centered.
   If it was absolute, then it would have been in relation to the
@@ -66,24 +66,24 @@ hr {
   If the containing elemnet was not Relative, then this too was
   positioned according to the screen, instead of the position
   of the containing element (the top-container)*/
-  right: 280px;
-  top: 40px;
+  right: 15%;
+  top: 10%;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 240px;
-  bottom: 300px;
+  left: 15%;
+  bottom: 45%;
 }
 
 .mountain {
   position: relative;
-  bottom: 10px;
+  bottom: 5%%;
 }
 
 .middle-container {
   background-color: #ffd57e;
-  padding: 100px 0 50px;
+  padding: 5% 0;
 }
 
 .bottom-container {
@@ -118,7 +118,7 @@ hr {
 .skill-row-1 {
   text-align: left;
   line-height: 2;
-  margin: 20% auto 30%;
+  margin: 15% auto 30%;
 }
 
 .first-skill-img {
