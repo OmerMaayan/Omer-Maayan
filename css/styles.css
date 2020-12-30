@@ -100,14 +100,14 @@ hr {
 }
 
 .bio-p {
-  width: 30%;
+  width: 40%;
   line-height: 2;
   text-align: center;
   margin: auto;
 }
 
 .skills {
-  width: 50%;
+  width: 65%;
   margin: 10% auto;
 }
 
@@ -118,11 +118,11 @@ hr {
 .skill-row-1 {
   text-align: left;
   line-height: 2;
-  margin: 15% auto 30%;
+  margin: 15% auto 25%;
 }
 
 .first-skill-img {
-  width: 25%;
+  width: 20%;
   float: left;
   margin-right: 5%;
 }
@@ -130,17 +130,17 @@ hr {
 .skill-row-2 {
   text-align: left;
   line-height: 2;
-  margin: 30% auto;
+  margin: 25% auto;
 }
 
 .second-skill-img {
-  width: 25%;
+  width: 20%;
   float: right;
   margin-left: 5%;
 }
 
 .contact-me {
-  width: 30%;
+  width: 40%;
   line-height: 2;
   text-align: center;
   margin: auto;
